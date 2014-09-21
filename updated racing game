@@ -1,0 +1,110 @@
+Create JS file in yoru code editor and save it in the same path. 
+  
+  function Runner (name,time) {
+  
+  this.name = name;
+  this.time = time;
+  this.startBy ;
+
+  this.checkWinner = function () {
+    return (Math.random() * 1.1) + 1.4;
+    
+  };
+  
+  this.start = this.checkWinner();
+}
+
+function Speedters (racer1,racer2){
+  racer1.startBy = racer1.time * racer1.start;
+  racer2.startby = racer2.time * racer2.start;
+  if (racer1.startBy < racer2.startBy){
+    alert(racer1.name +  " has won with a time of " + racer1.startby);
+  }
+  else{
+    alert(racer2.name +  " has won with a time of " + racer2.startby);  
+  }
+}
+
+var usianRunner = new Runner('Usian', 9.53);
+var yohanRunner = new Runner('Yohan', 9.23);
+
+Speedters(usianRunner, yohanRunner); 
+
+
+
+
+And create an HTML document in your code editor and enter this.
+
+<!DOCTYPE>
+<html>
+	<head>
+	<title>Usian Bolt loses to Yohan Blake</title>
+	<link href="css/whatevs.css" type="text/css"
+	rel="stylesheet"/>
+	<style>
+		 body {
+			background-image: url();
+			background-color: #642626;
+			background-image: url('http://i.telegraph.co.uk/multimedia/archive/02283/blake-bolt_2283848b.jpg');
+    		background-repeat: no-repeat;
+    		background-attachment: fixed; ;
+    		background-position: center; 
+		}
+		body {
+    		color:;
+		}
+		h1 {
+  			color: #ffffff;
+		}
+		h4 {
+  			color: #ffffff;
+		}
+		p.ex {
+  			color: rgb(0,0,255);
+		}
+		</style>
+	
+		</head>
+		<body>
+		
+			<h1 class="upset title" align="center">Usian Bolt loses to Yohan Blake</h1>
+			<h3 class=""></h3>
+		<nav>
+				<ul>
+				<li><h4>beta nav will be availble soon :)</h4></li>
+				</ul>
+			</nav>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+	<script type="text/javascript" src="racinggame.js">
+	</script>	
+			
+	</body>
+<html>
+		
+		
+		
+
+
+
+	
+
+
+
+
+	
+
+		  
+
+
+  
+
+
+
+
+
+
+
+
+
+
