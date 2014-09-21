@@ -1,4 +1,4 @@
-Create JS file in yoru code editor and save it in the same path. 
+****Create JS file in yoru code editor and save it in the same path.***** 
   
   function Runner (name,time) {
   
@@ -33,7 +33,7 @@ Speedters(usianRunner, yohanRunner);
 
 
 
-And create an HTML document in your code editor and enter this.
+*****And create an HTML document in your code editor and enter this.****
 
 <!DOCTYPE>
 <html>
